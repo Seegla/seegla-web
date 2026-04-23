@@ -7,6 +7,8 @@ import { useEffect, useState } from "react";
 interface DepartmentStats {
   department_name: string;
   wellness_score: number;
+  avg_score?: number;
+  score?: number;
   is_masked?: boolean;
 }
 
