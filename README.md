@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SEEGLA HR | Empowering Human Potential
 
-## Getting Started
+SEEGLA-HR is a premium, data-driven administrative portal designed to transform organizational health through predictive analytics and real-time wellness monitoring. By bridging the gap between corporate objectives and employee wellbeing, SEEGLA-HR enables visionary leaders to build resilient, high-performing teams.
 
-First, run the development server:
+## 🚀 Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Predictive Burnout Monitoring**: Advanced risk detection that identifies departmental fatigue before it impacts performance.
+- **Sentiment Velocity Analysis**: Real-time emotional tracking through secure, anonymous employee check-ins.
+- **Deep-Dive Analytics Modals**: Enterprise-grade drill-down views for every KPI, providing actionable intelligence on participation and wellness.
+- **Departmental Benchmarking**: Comparative distribution charts to identify organizational strengths and areas for strategic support.
+- **Premium Executive Dashboard**: A high-fidelity, interactive interface designed for speed, clarity, and decision-making.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (Custom Design System)
+- **Database & Auth**: [Supabase](https://supabase.com/) (PostgreSQL + RPCs)
+- **Visualization**: [Recharts](https://recharts.org/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Typography**: Inter & Plus Jakarta Sans
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Getting Started
 
-## Learn More
+### Prerequisites
+- Node.js 20+
+- A Supabase Project with relevant HR schemas
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Seegla/seegla-web.git
+   cd seegla-web
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Configure Environment Variables:
+   Create a `.env.local` file in the root directory:
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=your_project_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Launch the development server:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Deployment
+
+The platform is optimized for deployment on the **Vercel Platform**. 
+
+1. Push your changes to GitHub.
+2. Import the project into Vercel.
+3. Configure your Environment Variables in the Vercel Dashboard.
+4. Deploy.
+
+---
+
+© 2026 SEEGLA Philippines. All Rights Reserved.
