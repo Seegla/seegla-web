@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "9e1c8b3103f92fa8092568a44fe64858de7c5c9dc65ce4bea8f168080e889cfd"
+    },
+    "knowledge-ops": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "github",
+      "computedHash": "51857b97ab7542309d5fa585e1ea2127f371289984c12ebdccb1ec5b983cbacf"
+    },
+    "kpi-dashboard-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "450bc47e5845632aa4363da7d45a823815c42a510c8c122b27894a920cda2e61"
+    },
+    "persistent-memory": {
+      "source": "ropl-btc/agent-skills",
+      "sourceType": "github",
+      "computedHash": "af1b604e76c475ce767c909594ea416d392d2ccfde3b171a561b01cc9b2df8ae"
+    }
+  }
+}
